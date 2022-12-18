@@ -1,0 +1,36 @@
+{
+  "name": "@ongojs/tcp",
+  "version": "0.0.0",
+  "description": "tcp",
+  "main": "index.js",
+  "bin": {
+    "tcp": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/tcp.git"
+  },
+  "keywords": [
+    "tcp",
+    "net"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/tcp/issues"
+  },
+  "homepage": "https://github.com/ongojs/tcp#readme",
+  "dependencies": {
+    "@ongojs/client": "file:../client",
+    "@ongojs/server": "file:../server",
+    "dotenv": "16.0.3"
+  }
+}
